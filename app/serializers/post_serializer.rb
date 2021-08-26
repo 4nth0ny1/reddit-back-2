@@ -1,3 +1,3 @@
 class PostSerializer < ActiveModel::Serializer
-  attributes :id, :title, :content, :subreddit, :comments
+  attributes :id, :title, :content, :subreddit, :count, :comments
 end
